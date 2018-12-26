@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\keep">
+      <UniqueIdentifier>{78b286e3-dae8-42aa-a161-ed27e276140e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\useful">
+      <UniqueIdentifier>{6349e743-793d-40cf-b080-82cade63aaea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\keep\Stitched">
+      <UniqueIdentifier>{45b1518a-bc8c-428e-b44f-503b04059584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\keep\track">
+      <UniqueIdentifier>{ca431e8a-24ec-4672-ab1c-2903f26edce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\useful\track">
+      <UniqueIdentifier>{91581817-0a6b-40f1-bf4e-cf0877f25480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\useful\stitched">
+      <UniqueIdentifier>{bf2d847c-12e7-4202-ae1f-2f3c367ae79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\useful\OpticalFlow">
+      <UniqueIdentifier>{2279330f-432d-4aaa-b223-9476c25bd594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\KeyBoard">
+      <UniqueIdentifier>{75ae66a4-2ce9-47ce-bb5e-ebc229e4c75a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Homography.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="winio_nt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="winio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Keys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualKeyBoard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureDetection.cpp">
+      <Filter>源文件\useful</Filter>
+    </ClCompile>
+    <ClCompile Include="fileIO.cpp">
+      <Filter>源文件\useful</Filter>
+    </ClCompile>
+    <ClCompile Include="findCharactorRect.cpp">
+      <Filter>源文件\useful</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineLearning.cpp">
+      <Filter>源文件\useful</Filter>
+    </ClCompile>
+    <ClCompile Include="setROI.cpp">
+      <Filter>源文件\useful</Filter>
+    </ClCompile>
+    <ClCompile Include="useMouseCapturePicture.cpp">
+      <Filter>源文件\useful</Filter>
+    </ClCompile>
+    <ClCompile Include="源3.cpp">
+      <Filter>源文件\keep\Stitched</Filter>
+    </ClCompile>
+    <ClCompile Include="源2.cpp">
+      <Filter>源文件\keep\Stitched</Filter>
+    </ClCompile>
+    <ClCompile Include="源1.cpp">
+      <Filter>源文件\keep\Stitched</Filter>
+    </ClCompile>
+    <ClCompile Include="test3.cpp">
+      <Filter>源文件\keep\track</Filter>
+    </ClCompile>
+    <ClCompile Include="calman.cpp">
+      <Filter>源文件\useful\track</Filter>
+    </ClCompile>
+    <ClCompile Include="HomographyTest.cpp">
+      <Filter>源文件\useful\stitched</Filter>
+    </ClCompile>
+    <ClCompile Include="Homography.cpp">
+      <Filter>源文件\useful\stitched</Filter>
+    </ClCompile>
+    <ClCompile Include="ORBStitched.cpp">
+      <Filter>源文件\useful\stitched</Filter>
+    </ClCompile>
+    <ClCompile Include="SURFStitched.cpp">
+      <Filter>源文件\useful\stitched</Filter>
+    </ClCompile>
+    <ClCompile Include="opencvStitched.cpp">
+      <Filter>源文件\useful\stitched</Filter>
+    </ClCompile>
+    <ClCompile Include="calcOpticalFlowFarneback.cpp">
+      <Filter>源文件\useful\OpticalFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="cvCalcOpticalFlowPyrLK.cpp">
+      <Filter>源文件\useful\OpticalFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="SURFStitched2.cpp">
+      <Filter>源文件\useful\stitched</Filter>
+    </ClCompile>
+    <ClCompile Include="HSV.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Farneback.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PyrLK.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PyrLK1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Keys.cpp">
+      <Filter>源文件\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualKeyBoard.cpp">
+      <Filter>源文件\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="snapShot.cpp">
+      <Filter>源文件\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="opencvSnapShot.cpp">
+      <Filter>源文件\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTest.cpp">
+      <Filter>源文件\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCodeDetection.cpp">
+      <Filter>源文件\useful</Filter>
+    </ClCompile>
+    <ClCompile Include="BgTransparent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageInpainting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
